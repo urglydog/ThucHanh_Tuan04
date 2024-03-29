@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Boostrap/css/bootstrap.min.css">
+    <script src="/Boostrap/js/jquery-3.7.1.min.js"></script>
+    <script src="/Boostrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/themify-icons/themify-icons.css">
+
+</head>
+<style>
+    [class*=col-] {
+        margin: 0px auto;
+        padding: 0px;
+    }
+
+    .container {
+        border: 1px solid black;
+    }
+    .form-group input,
+    .form-group select{
+        width: 100%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 bg-dark  ">
+                <a class="navbar-brand text-light mx-5" href="#">Feane</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-md-5">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item dropdown  ">
+                                <a class="nav-link text-light  " href="../html/home.html" role="button"
+                                    aria-expanded="false">
+                                    HOME
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-light " href="../html/menu.html" role="button"
+                                    aria-expanded="false">
+                                    MENU
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-light " href="../html/about.html" role="button"
+                                    aria-expanded="false">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-light " href="../html/book.html" role="button"
+                                    aria-expanded="false">
+                                    BOOK TABLE
+                                </a>
+                            </li>
+                            <i style="color: white; margin-top: 10px; margin-left: 10px;" class="ti-shopping-cart"></i>
+                            <i style="color: white; margin-top: 10px; margin-left: 10px;" class="ti-tablet"></i>
+                            <i style="color: white; margin-top: 10px; margin-left: 10px; margin-right: 10px;"
+                                class="ti-search"></i>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-3  bg-dark ">
+                <button style="border-radius: 10px; width: 200px;" class="btn btn-warning text-light mt-2 "
+                    type="button">Order Online</button>
+
+            </div>
+        </div>
+        <div class="row body  ">
+            <div style="height: 20px; width: 2px;" class="row"></div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 ">
+                    <form class="form">
+                        <h1 class="">
+                            Book A Table
+                        </h1>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Phone number">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <select name="" id="">
+                                <option value="" disabled selected>How many person</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date">
+                        </div>
+                        <button style="border-radius: 20px; width: 150px;" class="btn btn-warning text-light " href="#" type="submit"  >BOOK NOW</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <img style="width: 90%; margin-top: 45px; margin-left: 20px;" src="../images/map.png" alt="">
+                </div> 
+                <div class="col-md-2"></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
